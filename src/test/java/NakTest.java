@@ -72,7 +72,7 @@ public class NakTest {
     Thread.sleep(1000);
 
     driver.findElement((By.name("q"))).sendKeys("카카오", Keys.ENTER);
-    Thread.sleep(3000);
+    Thread.sleep(2000);
 
   }
 }
