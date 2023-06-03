@@ -69,7 +69,7 @@ public class NakTest {
     Thread.sleep(1000);
 
     driver.navigate().to("https://www.google.com");
-    Thread.sleep(1000);
+    Thread.sleep(2000);
 
     driver.findElement((By.name("q"))).sendKeys("카카오", Keys.ENTER);
     Thread.sleep(3000);
